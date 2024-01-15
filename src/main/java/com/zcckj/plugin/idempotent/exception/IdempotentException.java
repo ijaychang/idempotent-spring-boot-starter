@@ -1,4 +1,4 @@
-package com.pig4cloud.plugin.idempotent.exception;
+package com.zcckj.plugin.idempotent.exception;
 
 /**
  * Idempotent Exception If there is a custom global exception, you need to inherit the

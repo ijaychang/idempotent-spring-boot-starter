@@ -1,8 +1,8 @@
-package com.pig4cloud.plugin.idempotent.aspect;
+package com.zcckj.plugin.idempotent.aspect;
 
-import com.pig4cloud.plugin.idempotent.annotation.Idempotent;
-import com.pig4cloud.plugin.idempotent.exception.IdempotentException;
-import com.pig4cloud.plugin.idempotent.expression.KeyResolver;
+import com.zcckj.plugin.idempotent.annotation.Idempotent;
+import com.zcckj.plugin.idempotent.exception.IdempotentException;
+import com.zcckj.plugin.idempotent.expression.KeyResolver;
 import jakarta.servlet.http.HttpServletRequest;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -10,7 +10,6 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.redisson.Redisson;
 import org.redisson.api.RMapCache;
 import org.redisson.api.RedissonClient;
 import org.slf4j.Logger;
@@ -52,7 +51,7 @@ public class IdempotentAspect {
 	@Autowired
 	private KeyResolver keyResolver;
 
-	@Pointcut("@annotation(com.pig4cloud.plugin.idempotent.annotation.Idempotent)")
+	@Pointcut("@annotation(com.zcckj.plugin.idempotent.annotation.Idempotent)")
 	public void pointCut() {
 	}
 

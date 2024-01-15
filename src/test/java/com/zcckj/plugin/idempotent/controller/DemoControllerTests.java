@@ -1,4 +1,4 @@
-package com.pig4cloud.plugin.idempotent.controller;
+package com.zcckj.plugin.idempotent.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;

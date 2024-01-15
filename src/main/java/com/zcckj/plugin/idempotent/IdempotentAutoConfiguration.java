@@ -1,8 +1,8 @@
-package com.pig4cloud.plugin.idempotent;
+package com.zcckj.plugin.idempotent;
 
-import com.pig4cloud.plugin.idempotent.aspect.IdempotentAspect;
-import com.pig4cloud.plugin.idempotent.expression.ExpressionResolver;
-import com.pig4cloud.plugin.idempotent.expression.KeyResolver;
+import com.zcckj.plugin.idempotent.aspect.IdempotentAspect;
+import com.zcckj.plugin.idempotent.expression.ExpressionResolver;
+import com.zcckj.plugin.idempotent.expression.KeyResolver;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

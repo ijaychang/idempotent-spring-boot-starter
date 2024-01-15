@@ -1,6 +1,6 @@
-package com.pig4cloud.plugin.idempotent.controller;
+package com.zcckj.plugin.idempotent.controller;
 
-import com.pig4cloud.plugin.idempotent.annotation.Idempotent;
+import com.zcckj.plugin.idempotent.annotation.Idempotent;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

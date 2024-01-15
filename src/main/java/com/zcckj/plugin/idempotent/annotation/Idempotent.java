@@ -1,4 +1,4 @@
-package com.pig4cloud.plugin.idempotent.annotation;
+package com.zcckj.plugin.idempotent.annotation;
 
 import java.lang.annotation.*;
 import java.util.concurrent.TimeUnit;

@@ -1,6 +1,6 @@
-package com.pig4cloud.plugin.idempotent.expression;
+package com.zcckj.plugin.idempotent.expression;
 
-import com.pig4cloud.plugin.idempotent.annotation.Idempotent;
+import com.zcckj.plugin.idempotent.annotation.Idempotent;
 import org.aspectj.lang.JoinPoint;
 
 /**
